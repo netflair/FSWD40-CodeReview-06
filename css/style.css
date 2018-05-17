@@ -1,3 +1,35 @@
 .navbar {
-	border-radius: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #efefef;
+    color: #efefef;
+}
+
+#myCarousel {
+    height: 550px;
+    overflow: hidden;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    #navi {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .nav>li>a {
+        background: #333;
+        margin: 10px 0;
+    }
 }
