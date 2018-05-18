@@ -1,0 +1,63 @@
+var dvd = '
+	{
+	"image" : "", 
+	"title": "Episode I - The Phantom Menace", 
+	"type": "DVD", 
+	"author": "George Lucas",
+	"genre": "Space Opera",
+	"publisher": "20th Century Fox",
+	"rating": "",
+	"desc": "When the evil Trade Federation plots to take over the peaceful planet of Naboo, Jedi warrior Qui-Gon Jinn and his apprentice Obi-Wan Kenobi embark on an amazing adventure to save the planet. With them on their journey is the young Queen Amidala, Gungan outcast Jar Jar Binks, and the powerful Captain Panaka, who will all travel to the faraway planets of Tatooine and Coruscant in a futile attempt to save their world from Darth Sidious, leader of the Trade Federation, and Darth Maul, the strongest Dark Lord of the Sith to ever wield a lightsaber."
+	},
+	{
+	"image" : "", 
+	"title": "Episode II - Attack of the Clones", 
+	"type": "DVD", 
+	"author": "George Lucas",
+	"genre": "Space Opera",
+	"publisher": "20th Century Fox",
+	"rating": "",
+	"desc": "Jedi Knights Obi-Wan Kenobi and Anakin Skywalker discover there is more than meets the eye behind an assassination attempt on Naboo Senator Padmé Amidala's life. Meanwhile, a Sith Lord orchestrates events between the forces of good and evil, all the while waiting to play the final move that will ensure him control of the galaxy."
+	},
+	{
+	"image" : "", 
+	"title": "Episode III - Revenge of the Sith", 
+	"type": "DVD", 
+	"author": "George Lucas",
+	"genre": "Space Opera",
+	"publisher": "20th Century Fox",
+	"rating": "",
+	"desc": "Three years into the Clone Wars, the Jedi rescue Palpatine from Count Dooku. As Obi-Wan pursues a new threat, Anakin acts as a double agent between the Jedi Council and Palpatine and is lured into a sinister plan to rule the galaxy."
+	},
+	{
+	"image" : "", 
+	"title": "Episode IV - A New Hope", 
+	"type": "DVD", 
+	"author": "George Lucas",
+	"genre": "Space Opera",
+	"publisher": "20th Century Fox",
+	"rating": "",
+	"desc": "Princess Leia is held hostage by the evil forces of the Galactic Empire in their effort to take over the galaxy. Venturesome Luke Skywalker and dashing Captain Han Solo team together with the lovable robotic duo, R2-D2 and C-3PO, to rescue the beautiful princess and restore justice in the galaxy."
+	},
+	{
+	"image" : "", 
+	"title": "Episode V - The Empire Strikes Back", 
+	"type": "DVD", 
+	"author": "George Lucas",
+	"genre": "Space Opera",
+	"publisher": "20th Century Fox",
+	"rating": "",
+	"desc": "After the rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader."
+	},
+	{
+	"image" : "", 
+	"title": "Episode VI - Return of the Jedi", 
+	"type": "DVD", 
+	"author": "George Lucas",
+	"genre": "Space Opera",
+	"publisher": "20th Century Fox",
+	"rating": "",
+	"desc": "After a daring mission to rescue Han Solo from Jabba the Hutt, the rebels dispatch to Endor to destroy a more powerful Death Star. Meanwhile, Luke struggles to help Vader back from the dark side without falling into the Emperor's trap."
+	},
+
+	';
