@@ -1,7 +1,7 @@
 var dvds = [
 	{
 	"image" : "./img/dvd/sw1.jpg", 
-	"title": " I - The Phantom Menace", 
+	"title": " i - The Phantom Menace", 
 	"type": "DVD", 
 	"author": "George Lucas",
 	"genre": "Space Opera",
@@ -12,7 +12,7 @@ var dvds = [
 	},
 	{
 	"image" : "./img/dvd/sw2.jpg", 
-	"title": " II - Attack of the Clones", 
+	"title": " ii - Attack of the Clones", 
 	"type": "DVD", 
 	"author": "George Lucas",
 	"genre": "Space Opera",
@@ -23,7 +23,7 @@ var dvds = [
 	},
 	{
 	"image" : "./img/dvd/sw3.jpg", 
-	"title": " III - Revenge of the Sith", 
+	"title": " iii - Revenge of the Sith", 
 	"type": "DVD", 
 	"author": "George Lucas",
 	"genre": "Space Opera",
@@ -34,7 +34,7 @@ var dvds = [
 	},
 	{
 	"image" : "./img/dvd/sw4.jpg", 
-	"title": " IV - A New Hope", 
+	"title": " iv - A New Hope", 
 	"type": "DVD", 
 	"author": "George Lucas",
 	"genre": "Space Opera",
@@ -45,7 +45,7 @@ var dvds = [
 	},
 	{
 	"image" : "./img/dvd/sw5.jpg", 
-	"title": " V - The Empire Strikes Back", 
+	"title": " v - The Empire Strikes Back", 
 	"type": "DVD", 
 	"author": "George Lucas",
 	"genre": "Space Opera",
@@ -56,7 +56,7 @@ var dvds = [
 	},
 	{
 	"image" : "./img/dvd/sw6.jpg", 
-	"title": " VI - Return of the Jedi", 
+	"title": " vi - Return of the Jedi", 
 	"type": "DVD", 
 	"author": "George Lucas",
 	"genre": "Space Opera",
@@ -67,7 +67,7 @@ var dvds = [
 	},
 	{
 	"image" : "./img/dvd/sw7.jpg", 
-	"title": " VII - The Force Awakens", 
+	"title": " vii - The Force Awakens", 
 	"type": "DVD", 
 	"author": " J.J.Abrams",
 	"genre": "Space Opera",
@@ -78,7 +78,7 @@ var dvds = [
 	},
 	{
 	"image" : "./img/dvd/sw8.jpg", 
-	"title": " VIII - The Last Jedi", 
+	"title": " viii - The Last Jedi", 
 	"type": "DVD", 
 	"author": "Rian Johnson",
 	"genre": "Space Opera",
