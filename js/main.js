@@ -13,7 +13,7 @@ $('#movies').html(movies);
 $(function(){
 	$('.stopVid').click(function(){ 
 	//store current ID 
-	var modalID = $(this).closest('.yes').attr('id');  
+	var modalID = $(this).closest('.modalBox').attr('id');  
 	//reassign src = vid stops   
     	$("#" + modalID + " iframe").attr('src', $("#" + modalID + " iframe").attr('src'));
     });
