@@ -1,8 +1,8 @@
+/* Navbar */
 .navbar {
     border-radius: 0;
     margin-bottom: 0;
 }
-
 
 .navbar-inverse .navbar-toggle:hover {
     background-color: #fff;
@@ -13,13 +13,18 @@
     border-color: #efefef;
     color: #efefef;
 }
-
+/* Slider */
 #myCarousel {
     height: 550px;
     overflow: hidden;
 }
+/* Products */
+.movies {
+	margin-top: 25px;
+}
 
 
+/* MEDIA QUERIES */
 @media only screen and (max-width: 768px) {
 
     #navi {
