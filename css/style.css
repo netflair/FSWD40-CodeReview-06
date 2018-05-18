@@ -64,6 +64,24 @@ h4 {
 	font-family: 'star head';
 }
 
+/* Rating Stars */
+  .starred {
+   color: yellow;
+  }
+
+  .starred-chosen {
+   color: green;
+  }
+.rating {
+	list-style: none;
+}
+.rating li {
+	display: inline-block;
+}
+.media-body [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
 /* Fixing "height-problem" 
    when summary of collums section go over 12 in one .row */
 .row.fix {
