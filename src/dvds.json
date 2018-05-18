@@ -59,5 +59,25 @@ var dvd = '
 	"rating": "",
 	"desc": "After a daring mission to rescue Han Solo from Jabba the Hutt, the rebels dispatch to Endor to destroy a more powerful Death Star. Meanwhile, Luke struggles to help Vader back from the dark side without falling into the Emperor's trap."
 	},
+	{
+	"image" : "", 
+	"title": "Episode VII - The Force Awakens", 
+	"type": "DVD", 
+	"author": " J.J.Abrams",
+	"genre": "Space Opera",
+	"publisher": "Walt Disney Studios Motion Pictures",
+	"rating": "",
+	"desc": "30 years after the defeat of Darth Vader and the Empire, Rey, a scavenger from the planet Jakku, finds a BB-8 droid that knows the whereabouts of the long lost Luke Skywalker. Rey, as well as a rogue stormtrooper and two smugglers, are thrown into the middle of a battle between the Resistance and the daunting legions of the First Order."
+	},
+	{
+	"image" : "", 
+	"title": "Episode VIII - The Last Jedi", 
+	"type": "DVD", 
+	"author": "Rian Johnson",
+	"genre": "Space Opera",
+	"publisher": "Walt Disney Studios Motion Pictures",
+	"rating": "",
+	"desc": "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order. "
+	},
 
 	';
