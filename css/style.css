@@ -1,3 +1,29 @@
+/* FONTS */
+@font-face {
+    font-family: 'star logo';
+    src: url('./fonts/starjhol.eot');
+    src: url('./fonts/starjhol.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/starjhol.woff2') format('woff2'),
+         url('./fonts/starjhol.woff') format('woff'),
+         url('./fonts/starjhol.ttf') format('truetype'),
+         url('./fonts/starjhol.svg#star_jedi_hollowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'star head';
+    src: url('./fonts/stjedise.eot');
+    src: url('./fonts/stjedise.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/stjedise.woff2') format('woff2'),
+         url('./fonts/stjedise.woff') format('woff'),
+         url('./fonts/stjedise.ttf') format('truetype'),
+         url('./fonts/stjedise.svg#starjedi_special_editionRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* Navbar */
 .navbar {
     border-radius: 0;
@@ -13,6 +39,13 @@
     border-color: #efefef;
     color: #efefef;
 }
+
+.navbar-brand {
+	font-family: 'star logo';
+	letter-spacing: 2px;
+	color: #ffe919 !important;
+	font-size: 2em;
+}
 /* Slider */
 #myCarousel {
     height: 550px;
@@ -23,7 +56,20 @@
 	margin-top: 25px;
 }
 
+.movies img{
+	max-height: 400px;
+}
 
+h4 {
+	font-family: 'star head';
+}
+
+/* Fixing "height-problem" 
+   when summary of collums section go over 12 in one .row */
+.row.fix {
+  display: flex;
+  flex-wrap: wrap;
+}
 /* MEDIA QUERIES */
 @media only screen and (max-width: 768px) {
 
