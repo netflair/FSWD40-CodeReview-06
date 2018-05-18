@@ -86,11 +86,11 @@ function sound(){
 		    	"</div>" +
 		    	//media-body
 		    	"<div class='media-body text-left row'> <hr>" + 	
-		    		"<b>Author: </b>" + cd.author + " <br> <b>Publisher: </b>" + cd.publisher +
+		    		"<b>Composer: </b>" + cd.author + " <br> <b>Publisher: </b>" + cd.publisher +
 		    		"<br><b>Release: </b>" + cd.release + " <br> <b>Genre: </b>" + cd.genre +
 		    		//label
 			    	"<br><hr><div class='col-xs-3'>" +
-			    		"<span class='label label-info'>" + cd.type + "</span>" +
+			    		"<span class='label label-danger'>" + cd.type + "</span>" +
 			    	"</div>" +
 			    	//stars
 			    	"<div class='col-xs-9'>" +
