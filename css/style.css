@@ -115,6 +115,9 @@ form {
     background-image: none !important;
 }
 
+#myCarousel img {
+	max-width: 50%;
+}
 
 /* Products */
 
@@ -212,4 +215,9 @@ thead {
         background: #333;
         margin: 10px 0;
     }
+	
+	#myCarousel {
+		display: none;
+	}
+
 }
