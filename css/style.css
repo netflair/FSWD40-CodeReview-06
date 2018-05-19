@@ -40,6 +40,14 @@ body {
 	margin-bottom: 500px;
 }
 
+h1 {
+	font-family: 'star logo';
+	letter-spacing: 2px;
+	color: #ffe919 !important;
+	font-size: 3em;
+	text-align: center;
+	margin-top: 50px;
+}
 
 /* Navbar */
 .navbar {
@@ -57,7 +65,7 @@ body {
     color: #efefef;
 }
 
-.navbar-brand {
+.navbar-brand{
 	font-family: 'star logo';
 	letter-spacing: 2px;
 	color: #ffe919 !important;
