@@ -7,7 +7,7 @@ for (var i = 0; i < dvds.length; i++) {
 }
 
 //Output
-$('#movies').html(movies);
+$('#movies').append(movies);
 
 //Stop YouTubeVid playing after Modal close
 $(function(){
@@ -26,7 +26,16 @@ for (var j = 0; j < cds.length; j++) {
 }
 
 //Output
-$('#cds').html(music);
+$('#cds').append(music);
+
+//COMICS -----------------------------------------------------------------
+for (var k = 0; k < cds.length; k++) {
+	com = comics[k];
+	comic();
+}
+
+//Output
+$('#comic').append(draw);
 
 
 //Rating Stars --------------------------------------------------------
