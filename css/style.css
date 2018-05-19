@@ -37,7 +37,7 @@ body {
 }
 
 .wrapper {
-	margin-bottom: 500px;
+
 }
 
 h1 {
@@ -49,6 +49,26 @@ h1 {
 	margin-top: 50px;
 }
 
+input {
+	margin-bottom: 20px;
+}
+small {
+	position: relative;
+	top: -20px;
+	background: #fff;
+	padding: 5px 15px;
+}
+
+#dvdBtn {
+	margin: 20px 0;
+}
+
+footer {
+	margin-top: 200px;
+}
+form {
+	margin-bottom: 100px;
+}
 /* Navbar */
 .navbar {
     border-radius: 0;
