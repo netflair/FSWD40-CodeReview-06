@@ -49,34 +49,6 @@ $(document).ready(function() {
     }
 
 
-    //Fire Loop Functions to display items on page load ----------------------
-    dvdLoop();
-    cdLoop();
-    comicLoop();
-
-
-
-    //PUSHING INTO ARRAY -----------------------------------------------------
-    $('#pushBtn').on('click', function() {
-        comics.push({
-            "id": "com8",
-            "image": "./img/comic/com1.jpg",
-            "title": "FUCK YEAH",
-            "type": "COMIC",
-            "author": "Charles Soule / Marco Checchetto",
-            "pages": "32",
-            "publisher": "Marvel Comics",
-            "release": "2016",
-            "rating": "0",
-            "desc": "Before their military heroism in the Clone Wars, before their tragic battle on Mustafar, and many decades before their final confrontation on the Death Star… they were Master Obi-Wan Kenobi and his Padawan learner, Anakin Skywalker. It's been a few years since Obi-Wan pledged to train the young \"chosen one,\" but even as they have grown closer through training, it has been a difficult road. Now, called to a remote planet for assistance, Master and Padawan may be pushed to the breaking point. Writer Charles Soule (Lando, She-Hulk, Daredevil) and artist Marco Checchetto (Star Wars: Shattered Empire, Avengers World, Punisher) bring us a tale of the Jedi at the height of their power…",
-            "descImg": "./img/comic/comsamp1.jpeg"
-        });
-        draw = '';
-        $('#comic').html(comicLoop());
-    });
-
-
-
     //Rating Stars --------------------------------------------------------
     $('.star').hover(function() {
         $(this).addClass('starred');
@@ -90,6 +62,51 @@ $(document).ready(function() {
         $(this).addClass('starred-chosen');
         $(this).prevAll('.star').addClass("starred-chosen");
     });
+
+
+    //Fire Loop Functions to display items on page load ----------------------
+    dvdLoop();
+    cdLoop();
+    comicLoop();
+
+
+
+    //Getting Values ----------------------------------------------------------
+    //DVD-------------------------------
+    var movTitle = $('#movTitle').val();
+    var movImage = $('#movImage').val();
+    var movAuthor = $('#movAuthor').val();
+    var movGenre = $('#movGenre').val();
+    var movPublisher = $('#movPublisher').val();
+    var movRelease = $('#movRelease').val();
+    var movTrailer = $('#movTrailer').val();
+    var movDesc = $('#movDesc').val();
+
+    //Getting
+
+
+    //PUSHING INTO ARRAY -----------------------------------------------------
+    $('#dvdBtn').on('click', function() {
+        dvds.push({
+            "id" : "dvd20",
+			"image" : ""+ movImage +"", 
+			"title": ""+ movTitle +"", 
+			"type": "DVD", 
+			"author": ""+ movAuthor +"",
+			"genre": ""+ movGenre +"",
+			"publisher": ""+ movPublisher +"",
+			"release": ""+ movRelease +"",
+			"rating": "0",
+			"trailer": ""+ movTrailer +"",
+			"desc": ""+ movDesc +""
+        });
+        movies = '';
+        $('#dvdItems').html(dvdLoop());
+    });
+
+
+
+
 
 
 
