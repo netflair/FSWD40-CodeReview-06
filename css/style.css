@@ -63,6 +63,10 @@ small {
 	margin: 20px 0;
 }
 
+.alert {
+	margin-top: 15px;
+}
+
 footer {
 	margin-top: 200px;
 }
@@ -90,6 +94,10 @@ form {
 	letter-spacing: 2px;
 	color: #ffe919 !important;
 	font-size: 2em;
+}
+
+.navbar li {
+	text-transform: uppercase;
 }
 /* Slider */
 #myCarousel {
