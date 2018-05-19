@@ -97,7 +97,7 @@
         </section>
     </div>
     <footer class="footer container">
-        <form id="dvd">
+        <form id="dvd-form">
             <div class="row fix">
                 <div class="col-md-6">
                     <input id="movTitle" type="text" class="form-control" placeholder="Title">
@@ -127,7 +127,34 @@
                     <textarea id="movDesc" type="text" class="form-control" placeholder="Description"></textarea>
                 </div>
             </div>
-            <button id="dvdBtn" type="button" class="btn btn-primary btn-block">PUSH</button>
+            <button id="dvdBtn" type="button" class="btn btn-primary btn-block">Add to List</button>
+        </form>
+
+        <form id="cd-form">
+            <div class="row fix">
+                <div class="col-md-6">
+                    <input id="cdTitle" type="text" class="form-control" placeholder="Title">
+                </div>
+                <div class="col-md-6">
+                    <input id="cdImage" type="text" class="form-control" placeholder="Image URL">
+                </div>
+                <div class="col-md-6">
+                    <input id="cdAuthor" type="text" class="form-control" placeholder="Composer">
+                </div>
+                <div class="col-md-6">
+                    <input id="cdGenre" type="text" class="form-control" placeholder="Genre">
+                </div>
+                <div class="col-md-6">
+                    <input id="cdPublisher" type="text" class="form-control" placeholder="Publisher">
+                </div>
+                <div class="col-md-6">
+                    <input id="cdRelease" type="text" class="form-control" placeholder="Release Year">
+                </div>
+                <div class="col-md-12">
+                    <textarea id="cdDesc" type="text" class="form-control" placeholder="Description"></textarea>
+                </div>
+            </div>
+            <button id="cdBtn" type="button" class="btn btn-primary btn-block">Add to List</button>
         </form>
     </footer>
     <!-- JSON FILES -->
