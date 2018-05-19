@@ -4,15 +4,15 @@ var dvd = '';
 function movi(){
 	 movies += 
 
-	    "<div class='" + dvd.type + " movies col-lg-3 col-md-4 col-sm-6 col-xs-12' data-toggle='modal' data-target='#" + dvd.id + "'>" +
+	    "<div class='" + dvd.type + " movies col-lg-3 col-md-4 col-sm-6 col-xs-12'>" +
 	    	//media
 		    "<div class='media text-center well'>" +
 		    	//media-heading
-		    	"<div class='media-heading'>" +
-		    		"<h4>" + dvd.title + "</h4>" +
+		    	"<div class='media-heading' data-toggle='modal' data-target='#" + dvd.id + "'>" +
+		    		"<h4>" + dvd.title + "</h4><hr>" +
 		    	"</div>" +
 		    	//media-object
-		    	"<div class='media-object'>" +
+		    	"<div class='media-object' data-toggle='modal' data-target='#" + dvd.id + "'>" +
 		    			"<img class='img-responsive center-block' src='" + dvd.image + "' alt='" + dvd.title + " -dvd Image'>" +
 		    	"</div>" +
 		    	//media-body
@@ -73,15 +73,15 @@ var cd = '';
 function sound(){
 	 music += 
 
-	    "<div class='" + cd.type + " movies col-lg-3 col-md-4 col-sm-6 col-xs-12' data-toggle='modal' data-target='#" + cd.id + "'>" +
+	    "<div class='" + cd.type + " movies col-lg-3 col-md-4 col-sm-6 col-xs-12'>" +
 	    	//media
 		    "<div class='media text-center well'>" +
 		    	//media-heading
-		    	"<div class='media-heading'>" +
-		    		"<h4>" + cd.title + "</h4>" +
+		    	"<div class='media-heading' data-toggle='modal' data-target='#" + cd.id + "'>" +
+		    		"<h4>" + cd.title + "</h4><hr>" +
 		    	"</div>" +
 		    	//media-object
-		    	"<div class='media-object'>" +
+		    	"<div class='media-object' data-toggle='modal' data-target='#" + cd.id + "'>" +
 		    			"<img class='img-responsive center-block' src='" + cd.image + "' alt='" + cd.title + " -dvd Image'>" +
 		    	"</div>" +
 		    	//media-body
