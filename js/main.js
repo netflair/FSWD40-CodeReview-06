@@ -90,10 +90,19 @@ $(document).ready(function() {
     var cdRelease = $('#cdRelease').val();
     var cdTrailer = $('#cdTrailer').val();
     var cdDesc = $('#cdDesc').val();
+    //COMICS---------------------------
+    var comTitle = $('#comTitle').val();
+    var comImage = $('#comImage').val();
+    var comAuthor = $('#comAuthor').val();
+    var comPages = $('#comPages').val();
+    var comPublisher = $('#comPublisher').val();
+    var comRelease = $('#comRelease').val();
+    var comImgDesc = $('#comImgDesc').val();
+    var comDesc = $('#comDesc').val();
 
 
     //PUSHING INTO ARRAY -----------------------------------------------------
-    //DVD
+    //DVD--------------------------------
     $('#dvdBtn').on('click', function() {
         dvds.push({
             "id" : "dvd20",
@@ -112,7 +121,7 @@ $(document).ready(function() {
         $('#dvdItems').html(dvdLoop());
     });
 
-    //CD
+    //CD--------------------------------
     $('#cdBtn').on('click', function() {
         cds.push({
             "id" : "ost20",
@@ -128,6 +137,25 @@ $(document).ready(function() {
         });
         music = '';
         $('#cdItems').html(cdLoop());
+    });
+
+    //COMIC-----------------------------
+    $('#comBtn').on('click', function() {
+        comics.push({
+            "id" : "com20",
+			"image" : ""+ comImage +"", 
+			"title": ""+ comTitle +"", 
+			"type": "COMIC", 
+			"author": ""+ comAuthor +"",
+			"pages": ""+ comPages +"",
+			"publisher": ""+ comPublisher +"",
+			"release": ""+ comRelease +"",
+			"rating": "0",
+			"desc": ""+ comDesc +"",
+			"descImg": ""+ comImgDesc +""
+        });
+        draw = '';
+        $('#comicItems').html(comicLoop());
     });
 
 
