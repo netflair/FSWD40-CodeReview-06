@@ -1,0 +1,54 @@
+var comics = [
+	{
+	"id" : "com1",
+	"image" : "./img/comic/com1.jpg", 
+	"title": "star wars:<br> obi-wan and anakin", 
+	"type": "COMIC", 
+	"author": "Charles Soule / Marco Checchetto",
+	"pages": "32",
+	"publisher": "Marvel Comics",
+	"release": "2016",
+	"rating": "0",
+	"desc": "Before their military heroism in the Clone Wars, before their tragic battle on Mustafar, and many decades before their final confrontation on the Death Star… they were Master Obi-Wan Kenobi and his Padawan learner, Anakin Skywalker. It's been a few years since Obi-Wan pledged to train the young \"chosen one,\" but even as they have grown closer through training, it has been a difficult road. Now, called to a remote planet for assistance, Master and Padawan may be pushed to the breaking point. Writer Charles Soule (Lando, She-Hulk, Daredevil) and artist Marco Checchetto (Star Wars: Shattered Empire, Avengers World, Punisher) bring us a tale of the Jedi at the height of their power…",
+	"descImg": "./img/comic/comsamp1.jpeg"
+	},
+	{
+	"id" : "com2",
+	"image" : "./img/comic/com2.jpg", 
+	"title": "star wars:<br> the screaming citadel", 
+	"type": "COMIC", 
+	"author": "Jason Aaron, Kieron Gillen / Marco Checchetto, Salvador Larroca, Andrea Broccardo",
+	"pages": "40",
+	"publisher": "Marvel Comics",
+	"release": "2017",
+	"rating": "0",
+	"desc": "Rebel pilot and rogue archaeologist wander side by side into the darkest shadows of the galaxy as Luke Skywalker reluctantly teams up with Doctor Aphra! The Doctor makes Luke an offer he can't afford to pass up…one that leads him to a very rare gathering at the heart of the infamous Screaming Citadel. Will Luke find what he's looking for? Can Aphra be trusted? Or will they both wind up victims of the Citadel's Queen?",
+	"descImg": "./img/comic/comsamp2.jpg"
+	},
+	{
+	"id" : "com3",
+	"image" : "./img/comic/com3.jpg", 
+	"title": "showdown on the smuggler's moon", 
+	"type": "COMIC", 
+	"author": "George Lucas",
+	"pages": "136",
+	"publisher": "Marvel Comics",
+	"release": "2016",
+	"rating": "0",
+	"desc": "Luke continues his quest to learn about the Jedi by heading for the Jedi Temple on Coruscant. But when his lightsaber is stolen, he soon finds himself entrapped and imprisoned! Will his friends come to his aid before he's forced to enter the Arena of Death? Meanwhile, Han and Leia are confronted by an unexpected foe. The Imperials are closing in on them, and they were set on the rebels' trail by a mysterious woman from Han's past – one with a very personal grudge! As Chewbacca is unleashed, Han finds himself dealing with…a ball and chain?! You've got to read it to believe it! Plus: Injustice reigns on Tatooine as villainous scum run rampant. Will Ben Kenobi risk revealing himself to do what's right? It's a special tale from Obi-Wan's past!",
+	"descImg": "./img/comic/comsamp3.jpg"
+	},
+	{
+	"id" : "com4",
+	"image" : "./img/comic/com4.jpg", 
+	"title": "star wars adventures:<br> boba fett and the ship of fear", 
+	"type": "COMIC", 
+	"author": "Jeremy Barlow / Daxiong",
+	"pages": "80",
+	"publisher": "Dark Horse Comics",
+	"release": "2011",
+	"rating": "0",
+	"desc": "The wreck of the Reverie, a four-hundred-year-old abandoned luxury liner is rumored to house an ancient relic of immense value. When Boba comes into possession of a map revealing the ship's current whereabouts, he sets his sights on the prize. But he's not alone -- two bounty-hunting brothers with a grudge against Fett are now on his trail, hoping to win the treasure for themselves. But, neither Boba nor the brothers are prepared for what else is lurking within the creepy corridors of the forsaken Reverie... ",
+	"descImg": "./img/comic/comsamp4.jpg"
+	}
+	];
