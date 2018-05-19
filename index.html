@@ -33,16 +33,16 @@
                     <div class="collapse navbar-collapse pull-right" id="navi">
                         <ul class="nav navbar-nav">
                             <li class="dropdown">
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Week 1<span class="caret"></span></a>
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Add new Item<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#git">Git and GitHub</a></li>
-                                    <li><a href="#html">HTML</a></li>
+                                    <li><a class="addDvd" href="#footer">DVD</a></li>
+                                    <li><a class="addCd" href="#footer">CD</a></li>
+                                    <li><a class="addComic" href="#footer">COMIC</a></li>
                                 </ul>
                             </li>
-                            <li><a href="menu.html">Menu</a></li>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="order.html">Order</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="#movies">dvd's</a></li>
+                            <li><a href="#cds">cd's</a></li>
+                            <li><a href="#comic">comics</a></li>
                         </ul>
                     </div>
                 </div>
@@ -60,13 +60,13 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="http://via.placeholder.com/800x900" alt=" ">
+                        <img src="./img/slide1.png" alt=" ">
                     </div>
                     <div class="item">
-                        <img src="http://via.placeholder.com/800x900" alt=" ">
+                        <img src="./img/slide2.png" alt=" ">
                     </div>
                     <div class="item">
-                        <img src="http://via.placeholder.com/800x900" alt=" ">
+                        <img src="./img/slide3.png" alt=" ">
                     </div>
                 </div>
                 <!-- Left and right controls -->
@@ -98,11 +98,19 @@
         </section>
     </div>
     <!-- FOOTER -->
-    <footer class="footer container">
-    	<div class="row">
-    		
-    	</div>
-    	<!-- DVD FORM -->
+    <footer id="footer" class="footer container">
+        <div class="row">
+            <div class="col-lg-4">
+                <button type="button" class="addDvd pushbtn btn btn-info btn-block">ADD DVD</button>
+            </div>
+            <div class="col-lg-4">
+                <button type="button" class="addCd pushbtn btn btn-danger btn-block">ADD CD</button>
+            </div>
+            <div class="col-lg-4">
+                <button type="button" class="addComic pushbtn btn btn-success btn-block">ADD COMIC</button>
+            </div>
+        </div>
+        <!-- DVD FORM -->
         <form id="dvd-form">
             <div class="row fix">
                 <div class="col-md-6 col-xs-12">
@@ -133,9 +141,13 @@
                     <textarea id="movDesc" type="text" class="form-control" placeholder="Description"></textarea>
                 </div>
             </div>
-            <button id="dvdBtn" type="button" class="pushbtn btn btn-primary btn-block">Add to List</button>
+            <div id="noEmmerich" class="alert alert-danger fade in alert-dismissable">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">&times;</a>
+                <strong>We dont accept Movies from <mark>Roland Emmerich</mark></strong>
+            </div>
+            <button id="dvdBtn" type="button" class="pushbtn btn btn-info btn-block">Add to List</button>
         </form>
-		<!-- CD FORM -->
+        <!-- CD FORM -->
         <form id="cd-form">
             <div class="row fix">
                 <div class="col-md-6 col-xs-12">
@@ -160,9 +172,9 @@
                     <textarea id="cdDesc" type="text" class="form-control" placeholder="Description"></textarea>
                 </div>
             </div>
-            <button id="cdBtn" type="button" class="pushbtn btn btn-primary btn-block">Add to List</button>
+            <button id="cdBtn" type="button" class="pushbtn btn btn-danger btn-block">Add to List</button>
         </form>
-		<!-- COMIC FORM -->
+        <!-- COMIC FORM -->
         <form id="com-form">
             <div class="row fix">
                 <div class="col-md-6 col-xs-12">
@@ -190,7 +202,7 @@
                     <textarea id="comDesc" type="text" class="form-control" placeholder="Description"></textarea>
                 </div>
             </div>
-            <button id="comBtn" type="button" class="pushbtn btn btn-primary btn-block">Add to List</button>
+            <button id="comBtn" type="button" class="pushbtn btn btn-success btn-block">Add to List</button>
         </form>
     </footer>
     <!-- JSON FILES -->
