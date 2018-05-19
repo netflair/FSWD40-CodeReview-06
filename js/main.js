@@ -81,11 +81,19 @@ $(document).ready(function() {
     var movRelease = $('#movRelease').val();
     var movTrailer = $('#movTrailer').val();
     var movDesc = $('#movDesc').val();
-
-    //Getting
+    //CD-------------------------------
+    var cdTitle = $('#cdTitle').val();
+    var cdImage = $('#cdImage').val();
+    var cdAuthor = $('#cdAuthor').val();
+    var cdGenre = $('#cdGenre').val();
+    var cdPublisher = $('#cdPublisher').val();
+    var cdRelease = $('#cdRelease').val();
+    var cdTrailer = $('#cdTrailer').val();
+    var cdDesc = $('#cdDesc').val();
 
 
     //PUSHING INTO ARRAY -----------------------------------------------------
+    //DVD
     $('#dvdBtn').on('click', function() {
         dvds.push({
             "id" : "dvd20",
@@ -102,6 +110,24 @@ $(document).ready(function() {
         });
         movies = '';
         $('#dvdItems').html(dvdLoop());
+    });
+
+    //CD
+    $('#cdBtn').on('click', function() {
+        cds.push({
+            "id" : "ost20",
+			"image" : ""+ cdImage +"", 
+			"title": ""+ cdTitle +"", 
+			"type": "CD", 
+			"author": ""+ cdAuthor +"",
+			"genre": ""+ cdGenre +"",
+			"publisher": ""+ cdPublisher +"",
+			"release": ""+ cdRelease +"",
+			"rating": "0",
+			"desc": ""+ cdDesc +""
+        });
+        music = '';
+        $('#cdItems').html(cdLoop());
     });
 
 
