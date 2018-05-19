@@ -1,79 +1,82 @@
 /* FONTS */
+
 @font-face {
     font-family: 'star logo';
     src: url('./fonts/starjhol.eot');
     src: url('./fonts/starjhol.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/starjhol.woff2') format('woff2'),
-         url('./fonts/starjhol.woff') format('woff'),
-         url('./fonts/starjhol.ttf') format('truetype'),
-         url('./fonts/starjhol.svg#star_jedi_hollowregular') format('svg');
+    url('./fonts/starjhol.woff2') format('woff2'),
+    url('./fonts/starjhol.woff') format('woff'),
+    url('./fonts/starjhol.ttf') format('truetype'),
+    url('./fonts/starjhol.svg#star_jedi_hollowregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
+
 @font-face {
     font-family: 'star head';
     src: url('./fonts/stjedise.eot');
     src: url('./fonts/stjedise.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/stjedise.woff2') format('woff2'),
-         url('./fonts/stjedise.woff') format('woff'),
-         url('./fonts/stjedise.ttf') format('truetype'),
-         url('./fonts/stjedise.svg#starjedi_special_editionRg') format('svg');
+    url('./fonts/stjedise.woff2') format('woff2'),
+    url('./fonts/stjedise.woff') format('woff'),
+    url('./fonts/stjedise.ttf') format('truetype'),
+    url('./fonts/stjedise.svg#starjedi_special_editionRg') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
-*{
-	border-radius: 0 !important;
+* {
+    border-radius: 0 !important;
 }
 
 body {
-	background-image: url('../img/body.jpg'), url('../img/bottom.jpg');
-	background-position: center 50px, center bottom;
-	background-repeat: no-repeat;
-	background-size: contain;	
-	background-color: #050409;
+    background-image: url('../img/body.jpg'), url('../img/bottom.jpg');
+    background-position: center 50px, center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #050409;
 }
 
-.wrapper {
-
-}
+.wrapper {}
 
 h1 {
-	font-family: 'star logo';
-	letter-spacing: 2px;
-	color: #ffe919 !important;
-	font-size: 3em;
-	text-align: center;
-	margin-top: 50px;
+    font-family: 'star logo';
+    letter-spacing: 2px;
+    color: #ffe919 !important;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 50px;
 }
 
 input {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
+
 small {
-	position: relative;
-	top: -20px;
-	background: #fff;
-	padding: 5px 15px;
+    position: relative;
+    top: -20px;
+    background: #fff;
+    padding: 5px 15px;
 }
 
 .pushbtn {
-	margin: 20px 0;
+    margin: 20px 0;
 }
 
 .alert {
-	margin-top: 15px;
+    margin-top: 15px;
 }
 
 footer {
-	margin-top: 200px;
+    margin-top: 200px;
 }
+
 form {
-	margin-bottom: 100px;
+    margin-bottom: 100px;
 }
+
+
 /* Navbar */
+
 .navbar {
     border-radius: 0;
     margin-bottom: 0;
@@ -89,95 +92,114 @@ form {
     color: #efefef;
 }
 
-.navbar-brand{
-	font-family: 'star logo';
-	letter-spacing: 2px;
-	color: #ffe919 !important;
-	font-size: 2em;
+.navbar-brand {
+    font-family: 'star logo';
+    letter-spacing: 2px;
+    color: #ffe919 !important;
+    font-size: 2em;
 }
 
 .navbar li {
-	text-transform: uppercase;
+    text-transform: uppercase;
 }
+
+
 /* Slider */
+
 #myCarousel {
     height: 550px;
     overflow: hidden;
 }
 
 .carousel-control {
-	background-image: none !important;
-}
-/* Products */
-.movies {
-	margin-top: 25px;
+    background-image: none !important;
 }
 
-.movies img{
-	width: 100%;
+
+/* Products */
+
+.movies {
+    margin-top: 25px;
+}
+
+.movies img {
+    width: 100%;
 }
 
 h4 {
-	font-family: 'star head';
+    font-family: 'star head';
 }
+
 thead {
-	color: #fff;
-	font-weight: bold;
+    color: #fff;
+    font-weight: bold;
 }
 
 .media-object {
-	position: relative;
+    position: relative;
 }
 
 .media-heading:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
 
-.media-heading:hover~.media-object::before, .media-object:hover::before  {
-	content:"\e086";
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: 'Glyphicons Halflings';
-	cursor: pointer;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background: #000;
-	color: #fff;
-	top: 0;
-	left: 0;
-	opacity: 0.7;
-	font-size: 4em;
+.media-heading:hover~.media-object::before,
+.media-object:hover::before {
+    content: "\e086";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Glyphicons Halflings';
+    cursor: pointer;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    color: #fff;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    font-size: 4em;
 }
+
 
 /* Rating Stars */
-  .starred {
-   color: yellow;
-   text-shadow: 1px 1px #262626;
-  }
 
-  .starred-chosen {
-   color: yellow;
-   text-shadow: 1px 1px #262626;
-  }
+.starred {
+    color: yellow;
+    text-shadow: 1px 1px #262626;
+}
+
+.starred-chosen {
+    color: yellow;
+    text-shadow: 1px 1px #262626;
+}
+
 .rating {
-	list-style: none;
+    list-style: none;
 }
+
 .rating li {
-	display: inline-block;
+    display: inline-block;
 }
+
 .media-body [class*='col-'] {
-    padding-right:0;
-    padding-left:0;
+    padding-right: 0;
+    padding-left: 0;
 }
+
+
 /* Fixing "height-problem" 
    when summary of collums section go over 12 in one .row */
+
 .row.fix {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+
 /* MEDIA QUERIES */
+
 @media only screen and (max-width: 768px) {
 
     #navi {
