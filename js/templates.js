@@ -1,4 +1,4 @@
-//Movie Template
+//Movie Template ---------------------------------------------------------------------------------
 var movies = '';
 var dvd = '';
 function movi(){
@@ -67,7 +67,7 @@ function movi(){
 
 }
 
-//Soundtracks Template
+//Soundtracks Template ---------------------------------------------------------------------------------
 var music = '';
 var cd = '';
 function sound(){
@@ -135,7 +135,7 @@ function sound(){
 }
 
 
-//Comics
+//Comics ---------------------------------------------------------------------------------
 var draw = '';
 var com = '';
 function comic(){
