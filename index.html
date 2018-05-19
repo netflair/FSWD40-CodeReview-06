@@ -95,10 +95,40 @@
                 <h1>comics</h1></div>
             <div id="comicItems" class="row fix"></div>
         </section>
-
     </div>
     <footer class="footer container">
- 
+        <form id="dvd">
+            <div class="row fix">
+                <div class="col-md-6">
+                    <input id="movTitle" type="text" class="form-control" placeholder="Title">
+                </div>
+                <div class="col-md-6">
+                    <input id="movImage" type="text" class="form-control" placeholder="Image URL">
+                </div>
+                <div class="col-md-6">
+                    <input id="movAuthor" type="text" class="form-control" placeholder="Author">
+                </div>
+                <div class="col-md-6">
+                    <input id="movGenre" type="text" class="form-control" placeholder="Genre">
+                </div>
+                <div class="col-md-6">
+                    <input id="movPublisher" type="text" class="form-control" placeholder="Publisher">
+                </div>
+                <div class="col-md-6">
+                    <input id="movRelease" type="text" class="form-control" placeholder="Release Year">
+                </div>
+                <div class="col-md-6">
+                    <input id="movTrailer" type="text" class="form-control" aria-describedby="trailerHelp" placeholder="Trailer">
+                    <small id="trailerHelp" class="form-text text-muted">
+                    	Only <mark>last</mark> part: https://www.youtube.com/watch?v=<mark>Q0CbN8sfihY</mark>
+                    </small>
+                </div>
+                <div class="col-md-12">
+                    <textarea id="movDesc" type="text" class="form-control" placeholder="Description"></textarea>
+                </div>
+            </div>
+            <button id="dvdBtn" type="button" class="btn btn-primary btn-block">PUSH</button>
+        </form>
     </footer>
     <!-- JSON FILES -->
     <script src="./src/dvds.json"></script>
