@@ -1,0 +1,51 @@
+var cds = [
+	{
+	"id" : "ost1",
+	"image" : "./img/cd/ost1.jpg", 
+	"title": " i - The Phantom Menace ost", 
+	"type": "CD", 
+	"author": "John Williams",
+	"genre": "Electronic, Jazz, Stage & Screen ",
+	"publisher": "Bantha Music",
+	"release": "1999",
+	"rating": "0",
+	"desc": "<thead class='label-default'><tr><td>Track</td><td>Duration</td></tr></thead> <tbody><tr><td>01 | Star Wars Main Title / The Arrival At Naboo</td> <td>2:55</td></tr><tr><td>02 | Duel Of The Fates</td><td>4:14</td></tr><tr><td>03 | Anakin's Theme</td> <td>3:08</td></tr><tr><td>04 | Jar Jar's Introduction / The Swim To Otoh Gunga</td> <td>5:07</td></tr><tr><td>05 | The Sith Spacecraft / The Droid Battle</td> <td>2:37</td></tr><tr><td>06 | The Trip To The Naboo Temple / The Audience With Boss Nass</td> <td>4:07</td></tr><tr><td>07 | The Arrival On Tatooine / The Flag Parade</td> <td>4:04</td></tr><tr><td>08 | He Is The Chosen One</td> <td>3:53</td></tr><tr><td>09 | Anakin Defeats Sebulba</td> <td>4:23</td></tr><tr><td>10 | Passage Through The Planet Core</td> <td>4:39</td></tr><tr><td>11 | Watto's Deal / Kids At Play</td> <td>4:57</td></tr><tr><td>12 | Panaka And The Queen's Protectors</td> <td>3:24</td></tr><tr><td>13 | Queen Amidala / The Naboo Palace</td> <td>4:51</td></tr><tr><td>14 | The Droid Invasion / The Appearence Of Darth Maul</td> <td>5:14</td></tr><tr><td>15 | Qui-Gon's Noble End</td> <td>3:48</td></tr><tr><td>16 | The High Council Meeting / Qui-Gon's Funeral</td> <td>3:08</td></tr><tr><td>17 | Augie's Great Municipal Band / End Credits</td> <td>9:38</td></tr></tbody>"
+	},
+	{
+	"id" : "ost2",
+	"image" : "./img/cd/ost2.jpg", 
+	"title": " ii - Attack of the Clones ost", 
+	"type": "CD", 
+	"author": "John Williams",
+	"genre": "Stage & Screen ",
+	"publisher": "Bantha Music",
+	"release": "2002",
+	"rating": "0",
+	"desc": "<thead class='label-default'><tr><td>Track</td><td>Duration</td></tr></thead> <tbody><tr><td>01 | Star Wars Main Title And Ambush On Coruscant</td> <td>03:46</td></tr><tr><td>02 | Across The Stars (Love Theme From Attack Of The Clones)</td><td>05:33</td></tr><tr><td>03 | Zam The Assassin And The Chase Through Coruscant</td> <td>11:07</td></tr><tr><td>04 | Yoda And The Younglings</td> <td>03:55</td></tr><tr><td>05 | Departing Coruscant</td> <td>01:44</td></tr><tr><td>06 | Anakin And Padmé</td> <td>03:57</td></tr><tr><td>07 | Jango's Escape</td> <td>03:48</td></tr><tr><td>08 | The Meadow Picnic</td> <td>04:14</td></tr><tr><td>09 | Bounty Hunter's Pursuit</td> <td>03:23</td></tr><tr><td>10 | Return To Tatooine</td> <td>06:57</td></tr><tr><td>11 | The Tusken Camp And The Homestead</td> <td>05:54</td></tr><tr><td>12 | Love Pledge And The Arena</td> <td>08:29</td></tr><tr><td>13 | Confrontation With Count Dooku And Finale</td> <td>10:48</td></tr></tbody>"
+	},
+	{
+	"id" : "ost3",
+	"image" : "./img/cd/ost3.jpg", 
+	"title": " iii - Revenge of the Sith ost", 
+	"type": "CD", 
+	"author": "John Williams",
+	"genre": "Classical, Stage & Screen ",
+	"publisher": "Bantha Music",
+	"release": "2005",
+	"rating": "0",
+	"desc": "<thead class='label-default'><tr><td>Track</td><td>Duration</td></tr></thead> <tbody><tr><td>01 | Star Wars And The Revenge Of The Sith</td> <td>07:31</td></tr><tr><td>02 | Anakin's Dream</td><td>04:46</td></tr><tr><td>03 | Battle Of The Heroes</td> <td>03:42</td></tr><tr><td>04 | Anakin's Betrayal</td> <td>04:04</td></tr><tr><td>05 | General Grievous</td> <td>04:07</td></tr><tr><td>06 | Palpatine's Teachings</td> <td>05:25</td></tr><tr><td>07 | Grievous And The Droids</td> <td>03:38</td></tr><tr><td>08 | Padmé's Ruminations</td> <td>03:17</td></tr><tr><td>09 | Anakin Vs. Obi-Wan</td> <td>03:57</td></tr><tr><td>10 | Anakin's Dark Deeds</td> <td>04:05</td></tr><tr><td>11 | Enter Lord Vader</td> <td>04:14</td></tr><tr><td>12 | The Immolation Scene</td> <td>02:42</td></tr><tr><td>13 | Grievous Speaks To Lord Sidious</td> <td>02:49</td></tr><tr><td>14 | The Birth Of The Twins And Padmé's Destiny</td> <td>03:37</td></tr><tr><td>15 | A New Hope And End Credits</td> <td>13:06</td></tr></tbody>"
+	},
+	{
+	"id" : "ost7",
+	"image" : "./img/cd/ost7.jpg", 
+	"title": " vii - The Force Awakens ost", 
+	"type": "CD", 
+	"author": "John Williams",
+	"genre": "Stage & Screen ",
+	"publisher": "Bantha Music",
+	"release": "2015",
+	"rating": "0",
+	"desc": "<thead class='label-default'><tr><td>Track</td><td>Duration</td></tr></thead> <tbody><tr><td>01 | Main Title And The Attack On The Jakku Village</td> <td>06:25</td></tr><tr><td>02 | The Scavenger</td><td>03:39</td></tr><tr><td>03 | I Can Fly Anything</td> <td>03:10</td></tr><tr><td>04 | Rey Meets BB-8</td> <td>01:31</td></tr><tr><td>05 | Follow Me</td> <td>02:54</td></tr><tr><td>06 | Rey’s Theme</td> <td>03:11</td></tr><tr><td>07 | The Falcon</td> <td>03:32</td></tr><tr><td>08 | That Girl With The Staff</td> <td>01:58</td></tr><tr><td>09 | The Rathtars!</td> <td>04:05</td></tr><tr><td>10 | Finn’s Confession</td> <td>02:08</td></tr><tr><td>11 | Maz’s Counsel</td> <td>03:07</td></tr><tr><td>12 | The Starkiller</td> <td>01:50</td></tr><tr><td>13 | Kylo Ren Arrives At The Battle</td> <td>02:00</td></tr></tbody>"
+	}
+
+	];
