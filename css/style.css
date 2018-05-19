@@ -28,6 +28,19 @@
 	border-radius: 0 !important;
 }
 
+body {
+	background-image: url('../img/body.jpg'), url('../img/bottom.jpg');
+	background-position: center 50px, center bottom;
+	background-repeat: no-repeat;
+	background-size: contain;	
+	background-color: #050409;
+}
+
+.wrapper {
+	margin-bottom: 500px;
+}
+
+
 /* Navbar */
 .navbar {
     border-radius: 0;
@@ -54,6 +67,10 @@
 #myCarousel {
     height: 550px;
     overflow: hidden;
+}
+
+.carousel-control {
+	background-image: none !important;
 }
 /* Products */
 .movies {
