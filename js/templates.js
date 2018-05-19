@@ -4,7 +4,7 @@ var dvd = '';
 function movi(){
 	 movies += 
 
-	    "<div class='" + dvd.type + " movies col-lg-3 col-md-4 col-sm-6 col-xs-12'>" +
+	    "<div class='" + dvd.type + " " + dvd.id + " movies col-lg-3 col-md-4 col-sm-6 col-xs-12'>" +
 	    	//media
 		    "<div class='media text-center well'>" +
 		    	//media-heading
@@ -73,7 +73,7 @@ var cd = '';
 function sound(){
 	 music += 
 
-	    "<div class='" + cd.type + " movies col-lg-3 col-md-4 col-sm-6 col-xs-12'>" +
+	    "<div class='" + cd.type + " " + cd.id +" movies col-lg-3 col-md-4 col-sm-6 col-xs-12'>" +
 	    	//media
 		    "<div class='media text-center well'>" +
 		    	//media-heading
@@ -141,7 +141,7 @@ var com = '';
 function comic(){
 	 draw += 
 
-	    "<div class='" + com.type + " movies col-lg-3 col-md-4 col-sm-6 col-xs-12'>" +
+	    "<div class='" + com.type + " " + com.id + " movies col-lg-3 col-md-4 col-sm-6 col-xs-12'>" +
 	    	//media
 		    "<div class='media text-center well'>" +
 		    	//media-heading
